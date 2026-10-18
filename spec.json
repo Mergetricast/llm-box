@@ -1,0 +1,50 @@
+{
+    "name":  "llm-box",
+    "logo":  "🧰",
+    "exe":  "LlmBox.exe",
+    "desc":  "Free, open-source local LLM server manager for Windows — llama.cpp presets, OpenAI-compatible API, VRAM fit checks. 100 MB portable, MIT.",
+    "topics":  [
+                   "local-llm-server",
+                   "llama-cpp",
+                   "openai-api",
+                   "llm",
+                   "local-ai",
+                   "ai-server",
+                   "ai-tools",
+                   "windows",
+                   "windows-10",
+                   "windows-11",
+                   "csharp",
+                   "dotnet",
+                   "chat-template",
+                   "gpu-offload",
+                   "api-endpoint",
+                   "portable",
+                   "open-source",
+                   "mit-license"
+               ],
+    "features":  [
+                     "✅ **One-click server start** — pick a GGUF, auto-detect chat template, and get a running localhost endpoint in seconds",
+                     "✅ **OpenAI-compatible API** — drop-in /v1/chat/completions on port 8080 that any app expects",
+                     "✅ **VRAM fit check** — refuses to launch an obviously oversized offload without a clear warning and a suggested preset",
+                     "✅ **Model switcher** — hot-swap loaded models from the tray without editing configs or restarting the app",
+                     "✅ **Preset shelf** — context size, threads, GPU layers and batch size saved per model, portable across machines",
+                     "✅ **Live log console** — token speed, context usage and errors streamed with filterable levels",
+                     "✅ **100 MB self-contained exe** — runtime and server backend bundled, portable, offline, MIT with SHA-256 releases"
+                 ],
+    "compare":  [
+                    "| Feature | **llm-box** | Ollama | LM Studio | KoboldCpp |",
+                    "|---|:---:|:---:|:---:|:---:|",
+                    "| Price | **Free, MIT** | Free, OSS | Free | Free, OSS |",
+                    "| Open source | **Yes** | Yes | No | Yes |",
+                    "| Runs raw GGUF from any folder | **Yes** | Import only | Yes | Yes |",
+                    "| Tray model hot-swap | **Yes** | No | Partial | No |",
+                    "| Per-model preset shelf | **Yes** | Modelfile | Yes | Config file |",
+                    "| Portable, no install | **Yes, 100 MB** | Installer | Installer | Zip |"
+                ],
+    "faqQ":  "how to run a local LLM server with an OpenAI-compatible API on Windows?",
+    "faqA":  "Most guides mean installing Python or a background service that registers itself and phones home. llm-box starts any GGUF you point it at, serves the /v1 API apps already expect and keeps every preset in a portable folder. It is a 100 MB exe, MIT, offline, and uninstalls by deleting a folder.",
+    "s1":  "Dark dashboard (#121417, green #34D399): model card with VRAM fit badge reading fits in 12.1 of 16 GB, start button glowing, endpoint chip localhost:8080/v1.",
+    "s2":  "Tray menu open over desktop: loaded model highlighted, three recent GGUFs listed, context usage bar at 34 percent of 8192 tokens.",
+    "s3":  "Log console: chat completion streamed with 42 tok per sec counter, filter dropdown on requests, green toast reading server ready in 0.9 s."
+}
